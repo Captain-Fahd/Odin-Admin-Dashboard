@@ -1,0 +1,84 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+@font-face {
+  font-family: DashboardFont;
+  src: url("Assets/ShipporiAntique-Regular.ttf");
+}
+body{
+  font-family: DashboardFont;
+}
+.dashboard-container{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 0.5fr 3fr;
+}
+/*Header items*/
+.header{
+  background-color: white;
+  border: 1px solid grey;
+  padding-left: 7%;
+  padding-top: 15px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.header input{
+  background-color: #f2f4f7;
+  width: 800px;
+  height:30px;
+  border-radius: 30px;
+  padding-left: 20px;
+}
+.profile-notif{
+  margin-left: 300px;
+}
+.actions{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-bottom: 57px;
+}
+.header-buttons{
+  display: inline-block;
+  text-align: center;
+  font-weight: 400;
+  color: white;
+  padding: 7px;
+  width: 90px;
+  background-color: #0ea5e9;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.welcome{
+  margin-top: 80px;
+}
+/*Sidebar Items*/
+.sidebar{
+  /*Colors and style*/
+  color: rgb(228, 225, 225);
+  background-color: #0ea5e9;
+  /*Alignment*/
+  padding-top: 30px;
+  padding-left: 50px;
+  grid-row: 1/3;
+}
+.sidebar>ul{
+  list-style: none;
+}
+.sidebar li{
+  padding: 10px;
+}
+.icons{
+  width: 15px;
+  height: 15px;
+  border: none;
+  padding-right: 10px;
+  padding-top: 0px;
+  margin: none;
+  fill: white;
+}
+/*Content Items*/
+.content{
+  background-color: #E2E8F0;
+}
