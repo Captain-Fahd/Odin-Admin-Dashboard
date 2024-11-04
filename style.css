@@ -10,6 +10,10 @@
 body{
   font-family: DashboardFont;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 .dashboard-container{
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -61,6 +65,7 @@ body{
   background-color: #0ea5e9;
   border-radius: 30px;
   margin-right: 20px;
+  box-shadow: rgb(214, 214, 214) 0px 2px 3px 2px;
 }
 .welcome{
   display: inline-flex;
@@ -88,6 +93,15 @@ body{
 }
 .sidebar li{
   padding: 10px;
+}
+.menu-item, .config-item{
+  width: 200px;
+  border-radius: 30px;
+  padding: 10px;
+}
+.menu-item:hover, .config-item:hover{
+  background-color: #0369a1;
+  
 }
 .icons{
   width: 15px;
