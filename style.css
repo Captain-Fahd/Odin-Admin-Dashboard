@@ -19,7 +19,7 @@ body{
 /*Header items*/
 .header{
   background-color: white;
-  padding-left: 7%;
+  padding-left: 6%;
   padding-top: 15px;
   display: inline-flex;
   flex-wrap: wrap;
@@ -33,7 +33,18 @@ body{
   padding-left: 20px;
 }
 .profile-notif{
-  margin-left: 300px;
+ display: inline-flex;
+ width: max-content;
+  margin-left: 200px;
+}
+.header-icons{
+  flex: auto;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+.profile-notif>p{
+  width:200px;
+  flex: 3 1 auto;
 }
 .actions{
   margin-top: 100px;
@@ -52,7 +63,14 @@ body{
   margin-right: 20px;
 }
 .welcome{
+  display: inline-flex;
   margin-top: 80px;
+}
+.acc-img{
+  width: 70px;
+  height: 65px;
+  margin-right: 20px;
+  padding-bottom: 10px;
 }
 /*Sidebar Items*/
 .sidebar{
@@ -66,6 +84,7 @@ body{
 }
 .sidebar>ul{
   list-style: none;
+  padding-left: 20px;
 }
 .sidebar li{
   padding: 10px;
@@ -79,12 +98,19 @@ body{
   margin: none;
   fill: white;
 }
+.dashboard-icon{
+  height: 50px;
+  width: 50px;
+}
+.nav-menu, .config{
+  font-size: 22px;
+}
 /*Content Items*/
 .content-big{
   padding-top: 20px;
   padding-left: 30px;
   background-color: #E2E8F0;
-  padding-bottom: 33px;
+  padding-bottom: 31px;
 }
 .content{
   margin-top: 16px;
@@ -104,4 +130,28 @@ body{
   padding: 20px;
   background-color: white;
   box-shadow: grey 0px 4px 5px 2px;
+}
+.project p{
+  font-size: 12px;
+}
+.announcement-body{
+  background-color: white;
+  width: 280px;
+  padding: 20px;
+  border-radius: 20px;
+}
+hr{
+  width: 100%;
+  color: black;
+  border: 1px dashed;
+}
+.trending{
+  margin-top: 10px;
+}
+.trending-names{
+  list-style: none;
+  padding-left: 20px;
+}
+.trend{
+  padding-top: 10px;
 }
